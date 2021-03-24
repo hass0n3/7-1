@@ -2,15 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>7-01</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number!</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body id="background">
-    <p>Please guess a number inbetween 1 - 6</p>
-    <button id="button">Press to check</button>
-    <input id="input">
-    <p id="paragraph">___</p>
+  <body>
+    <h1 class="box1">Can you guess the number?</h1>
+    <p class="box2">Enter an integer from 1-6 into the box below. Press 'Enter' to guess the number. The program will generate a random integer, also from 1-6. Let's see if the numbers match!</p>
+    <input type="text" id="text1">
+    <button id="button1">Enter</button>
+    <p class="box3" id="results"></p>
+    <button id="button2">Play again</button>
     <script src="script.js"></script>
   </body>
 </html>
